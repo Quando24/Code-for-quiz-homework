@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet"  href="styles.css"> 
+    <title>Coding Quiz!</title>
+</head> 
+
+<body> 
+    <div id="startingpage">
+        <header>
+            Welcome to this quiz application! 
+        </header> 
+       <div> 
+           <h1>
+               Click below to begin your quiz!
+           </h1> 
+           <button id="begin-btn">Start</button> 
+       </div> 
+    </div>
+   <section>
+       <h2>
+           Seconds left
+       </h2> 
+       <p id="timer">1:00</p>
+   </section>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div> 
+            <div id="answer-buttons"> 
+                <button id="answer1">Answer1</button> 
+                <button id="answer2">Answer2</button> 
+                <button id="answer3">Answer3</button> 
+                <button id="answer4">Answer4</button> 
+            </div>
+        </div> 
+        <div class="controls">
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+   </div> 
+   <script src="script.js"></script>
+</body> 
+</html> 
